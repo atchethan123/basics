@@ -22,6 +22,7 @@ driver.get("https://www.google.com/");
 
 driver.switchTo().activeElement().sendKeys("java");
 List<WebElement> autosug = driver.findElements(By.xpath("//span[contains(text(),'java')]"));
+System.out.println(autosug.size());
 for(int i=0;i<autosug.size();i++)
 {
 	String text=autosug.get(i).getText();

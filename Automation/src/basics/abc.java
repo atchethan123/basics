@@ -1,5 +1,7 @@
 package basics;
 
-public class abc {
-
+public class abc 
+{
+static{
+}
 }
